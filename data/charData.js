@@ -31,7 +31,16 @@ const charData = [
       lv60Uncap: {gemMat: 27, bossMat: 8, gatherMat: 30, monsterMat:3, mora: 80000 },
       lv70Uncap: {gemMat: 54, bossMat: 12, gatherMat: 45, monsterMat:3, mora: 100000 },
       lv80Uncap: {gemMat: 162, bossMat: 20, gatherMat: 60, monsterMat:3, mora: 120000 }
+    },
+    {
+      charName: "Xiao",
+      gemMat: {"Vayuda Turquoise Sliver", "Vayuda Turquoise Fragment", "Vayuda Turquoise Chunk", "Vayuda Turquoise Gemstone"},
+      bossMat: "Juvenile Jade",
+      gatherMat : "Qingxin",
+      monsterMat: {"Slime Condensate", "Slime Secretions", "Slime Concentrate"},
+      mora : 0,
     }
+
   ]
 
 gatherMatCheck(gatherMats,gatherReqs) {
